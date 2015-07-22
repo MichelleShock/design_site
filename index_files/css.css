@@ -1,0 +1,38 @@
+.font_standard {
+	font: 16px font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: 100% #95d2d3;
+	padding: 10px 0 #59606c;
+	border: 0;
+	margin: 0;
+/*	I can't figure out how to remove white space */	
+	color: #00474a;
+	
+}
+
+h1 {
+	text-align: left;
+}
+
+h2 {
+	text-align: left;
+}
+
+ul {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+.navigation {
+	display: inline-block; 
+}
+
