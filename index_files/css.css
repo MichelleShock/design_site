@@ -1,23 +1,17 @@
-.font_standard {
-	font: 16px font-family: 'Montserrat', sans-serif;
-}
-
 header {
+	text-align: center;
 	background: 100% #95d2d3;
 	padding: 10px 0 #59606c;
 	border: 0;
 	margin: 0;
 /*	I can't figure out how to remove white space */	
 	color: #00474a;
-	
 }
 
 h1 {
-	text-align: left;
 }
 
 h2 {
-	text-align: left;
 }
 
 ul {
@@ -32,7 +26,22 @@ body {
 	margin: 0;
 }
 
+#title {
+
+}
+
+#subtitle {
+}
+
+#navbar {
+	text-align: center;
+}
+
 .navigation {
 	display: inline-block; 
+}
+
+.font_standard {
+	font: 16px font-family: 'Montserrat', sans-serif;
 }
 
