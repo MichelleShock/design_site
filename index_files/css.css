@@ -12,6 +12,7 @@ h1 {
 }
 
 h2 {
+	margin: 0 15%;
 }
 
 ul {
@@ -24,6 +25,10 @@ body {
 	padding: 0;
 	border: 0;
 	margin: 0;
+}
+
+footer {
+	text-align: center;
 }
 
 #title {
@@ -41,7 +46,10 @@ body {
 	display: inline-block; 
 }
 
-.font_standard {
+.standard_text {
 	font: 16px font-family: 'Montserrat', sans-serif;
+	text-align: justify;
+	margin: 0 20%;
+
 }
 
