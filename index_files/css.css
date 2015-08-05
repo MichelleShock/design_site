@@ -1,24 +1,30 @@
+html {
+	background-color: #F5F3EE;
+}
+
 header {
 	text-align: center;
-	background: 100% #95d2d3;
+	background: 100% #7D1935;
 	padding: 10px 0 #59606c;
 	border: 0;
 	margin: 0;
-/*	I can't figure out how to remove white space */	
-	color: #00474a;
+	color: #F5F3EE;
+	box-shadow: 0 2px 5px 1px #663300;
+
 }
 
 h1 {
+	font: 3em 'Montserrat', sans-serif;
+	margin: 3%;
+	padding: 5% 0 0;
+	text-align: right;
 }
 
 h2 {
+	font: 1.5em 'Montserrat', sans-serif;
 	margin: 0 15%;
-}
-
-ul {
 	padding: 0;
-	border: 0;
-	margin: 0;
+	color: #4A96AD;
 }
 
 body {
@@ -27,8 +33,13 @@ body {
 	margin: 0;
 }
 
+ul {
+
+}
+
 footer {
 	text-align: center;
+	font-family: 'Calibri','Helvetica', sans-serif;
 }
 
 #title {
@@ -36,20 +47,48 @@ footer {
 }
 
 #subtitle {
+	text-align: right;
 }
 
-#navbar {
-	text-align: center;
+#navigation ul {
+	list-style-type: none;
+	text-align: right;
+	padding: 0;
+	margin: 0;
 }
 
-.navigation {
-	display: inline-block; 
+#navigation ul li {
+	display: inline;
+}
+
+#navigation ul a {
+	text-decoration: none;
+	font: 1em 'Montserrat', sans-serif;
+	padding: .2em 1em;
+	margin: 0;
+	background-color: #7D1935;
+	color: #F5F3EE;
+	box-shadow: 0 1px 5px 1px #663300;
+
+}
+
+#navigation ul a:hover {
+	color: #4A96AD;
 }
 
 .standard_text {
-	font: 16px font-family: 'Montserrat', sans-serif;
 	text-align: justify;
+	font-family: 'Calibri','Helvetica', sans-serif;
 	margin: 0 20%;
-
 }
+
+/*
+color palatte
+#7D1935
+#4A96AD
+#F5F3EE
+#FFFFFF
+
+
+*/
 
