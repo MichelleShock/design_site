@@ -7,19 +7,19 @@ header {
 	border: 0;
 	margin: 0;
 	color: #F5F3EE;
-	box-shadow: 0 2px 5px 1px #663300;
+	box-shadow: 0 2px 5px 1px #4A96AD;
 }
 
 h1 {
 	font: 3em 'Montserrat', sans-serif;
 	margin: 3% 3% 0;
 	padding: 3% 0 0 0;
-	text-align: right;
+	text-align: left;
 }
 
 h2 {
 	font: 1.5em 'Montserrat', sans-serif;
-	margin: 0 15%;
+	margin: 0 15% 2%;
 	padding: 0;
 	color: #4A96AD;
 }
@@ -31,12 +31,14 @@ body {
 }
 
 footer {
+	float: bottom;
 	text-align: center;
 	font-family: 'Calibri','Helvetica', sans-serif;
+	padding: 0 0 2%;
 }
 
 #subtitle {
-	text-align: right;
+	text-align: left;
 	padding:0 0 3%;
 
 }
@@ -66,11 +68,6 @@ footer {
 	color: #4A96AD;
 }
 
-#contact{
-
-	
-}
-
 .standard_text {
 	text-align: justify;
 	font-family: 'Calibri','Helvetica', sans-serif;
@@ -78,22 +75,38 @@ footer {
 }
 
 .content {
-	padding-top: 5%;
+	padding: 5% 2%;
 }
 
 /*CONTACT FORM STYLING*/
-/*UNSLIDER - GALLERY STYLING*/
-.banner { position: relative; overflow: auto; }
-.banner li { list-style: none; }
-.banner ul li { float: left; }
+#contact{
+	font-family: 'Calibri','Helvetica', sans-serif;
+	color: white;
+	float: none;
+	background-color: #7D1935;
+	border-radius: 10px;
+	margin: 0 20%;
+	padding: 5%;
+	text-align: left;
+}
+
+.section {
+	margin: 2% 0 1%;
+}
+
+ /*label{
+	display: block;
+	font: Calibri, Helvetica, sans-serif;
+	color: #7D1935;
+	margin-bottom: 15px;
+}*/
+
 
 /*
 color palatte
-#7D1935
-#4A96AD
-#F5F3EE
-#FFFFFF
-
-
+#7D1935 - Maroon
+#4A96AD - Subtle Blue
+#F5F3EE - Off white
+#FFFFFF - White
 */
 

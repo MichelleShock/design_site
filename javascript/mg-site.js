@@ -1,12 +1,24 @@
-$(document).ready(function() {
-	//UNSLIDER - IMAGE GALLERY
+$(document).ready(function($) {
+	//Navigation
+/*  
+	$("#about").hide();
+	$("#portfolio").hide();
+	$("#contact").hide();
+	//alert ("It's working");
+
+	$("#navAbout").click( function {
+		$("#about").fadeIn()
+	});
+*/
+
+
 
 
 
 
 }); //end ready
 
-
+//UNSLIDER - IMAGE GALLERY
 
 
 

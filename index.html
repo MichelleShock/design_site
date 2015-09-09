@@ -4,48 +4,49 @@
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 		<link href="./css/normalize.css" rel="stylesheet" type="text/css">
 		<link href="./css/designsite.css" rel="stylesheet" type="text/css">
-		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-		<script src="//unslider.com/unslider.min.js"></script>
-		<link href="./javascript/mg-site.js">
-		<title>Michelle Giralico - Designer - Front End Web</title>
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script type="text/javascript" src="./javascript/mg-site.js"></script>
+		<title>Michelle Giralico - Designer</title>
 	</head>
 
 	<body>
 		<header>
 			<div>
 				<h1>
-					<div id="title"> Michelle Giralico</div>
+					<div id="title">Michelle Giralico</div>
 				</h1>
 				<h2>
-					<div id="subtitle"> Web Designer</div>
+					<div id="subtitle">Web Designer</div>
 				</h2>
+				<!--Navigation Bar-->
+				<div id="navigation">
+					<ul>
+						<li id="navAbout"><a href="#about_me">About Me</a></li>
+						<li id="navPortfolio"><a href="#portfolio">Portfolio</a></li>
+						<!--<li ><a href="#resume">Resume</a></li>-->
+						<li id="navContact"><a href="#contact">Contact</a></li>
+					</ul>
+				</div>				
 			</div>
 		</header>
 
-		<!--Navigation Bar-->
-		<div id="navigation">
-			<ul>
-				<li ><a href="#about_me">About Me</a></li>
-				<li ><a href="#portfolio">Portfolio</a></li>
-				<!--<li ><a href="#resume">Resume</a></li>-->
-				<li ><a href="#contact">Contact</a></li>
-			</ul>
-		</div>
 
-		<div class="content">
-			<h2><a name="about_me">About Me</a></h2>
+
+		<!--Content-->
+
+		<div id="about" class="content">
+			<h2>About Me</h2>
 			<p class="standard_text">
 				I have a background in graphic design but have spent the last 10 years developing a love for technology working for an ISP. Creative problem solving is my forte and I'm always up for a challenge. 
-
-				Im an unapologetic fan of puns and have an affinity for the absurd. 
-
-				In my spare time I enjoy time with my family and friends. I love trying new things and gaining different perspectives. Over the years I've tried my hand at welding, playing the musical saw, cycling, knitting, and numerous diy projects. 
+			</p>
+			<p class="standard_text">
+				In my spare time I enjoy time with my family and friends. I love trying new things and gaining different perspectives. Over the years I've tried my hand at welding, playing the musical saw, cycling, knitting, and numerous diy projects. I'm an unapologetic fan of puns and have an affinity for the absurd. 
 			</p>
 			<br>
 
 		</div>
-		<div class="content">
-			<h2><a name="portfolio">Portfolio</a></h2>
+		<div id="portfolio" class="content">
+			<h2>Portfolio</h2>
 			<p class="standard_text">
 				Lightbox Gallery to go here
 			</p>
@@ -60,11 +61,27 @@
 		</div>
 		-->
 
-		<div class="content">
-			<h2><a name="contact">Contact</a></h2>
-			<p class="standard_text"></p>
+		<div class = "content" class="cFormStyle">
+			<h2>Contact</h2>
+				<form id="contact" action="/webformmailer.php" method="post">
+					<div class="section"><label for="name">What is your Name?</label></div>
+					<input type="text" name="name" id="name"><br>
+					<br>
+
+					<div class="section"><label for="email">What is your e-mail address?</label></div>
+					<input type="email" name="email" id="email"><br>
+					<br>
+
+					<div class="section"><label for="message">What is your quest?</label></div>
+					<textarea id="message"><input type="text" name="message" id="message"></textarea><br>
+					<br>
+
+					<div class="section">
+						<button type="submit" value="Submit" id="submit">Submit</button>
+					</div>
+				</form>
 		</div>
 
-		<footer>© Michelle Giralico - michelle@giralico.com</footer>
+		<footer>&copy; Michelle Giralico - michelle@giralico.com</footer>
 	</body>
 </html>
