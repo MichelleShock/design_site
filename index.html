@@ -1,35 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 
-		<!-- Latest compiled and minified CSS -->
+<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
 
-		<!-- Optional theme -->
+<!-- Optional theme -->
 		<link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.min.css">
-
-		<!-- Google Fonts -->
-
+<!-- Google Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-		<!-- CUSTOM CSS -->
-
+<!-- CUSTOM CSS -->
 		<link href="./css/designsite.css" rel="stylesheet" type="text/css">
 
 		<title>Michelle Giralico - Designer</title>
 	</head>
 
 	<body>
-
 	    <div class="site-wrapper">
 
 	      <div class="site-wrapper-inner">
 	        <div class="cover-container">
 
-	          <div class="masthead clearfix">
+	        <div class="masthead clearfix">
 	            <div class="inner">
-	              <h3 class="masthead-brand">MG</h3>
-	              <!-- Navigation -->
+	              <h3 class="masthead-brand"><span class="glyphicon glyphicon-flash"></span>MG</h3>
+<!-- Navigation -->
 	              <nav>
 	                <ul class="nav masthead-nav">
 	                  <li class="active"><a href="#">Home</a></li>
@@ -38,29 +34,56 @@
 	                </ul>
 	              </nav>
 	            </div>
-	          </div>
+	        </div>
+	      </div>
 
-	          <div class="inner cover">
-	            <h1 class="cover-heading">Michelle Giralico</h1>
-	            <p class="lead">Web Designer. Motto in progress.</p>
-	            <!-- Button
-	            <p class="lead">
-	              <a href="#" class="btn btn-lg btn-default">See the work</a>
-	            </p>
-	            -->
-	          </div>
+<!-- OPENING PAGE -->
 
-	          <div class="mastfoot">
-	            <div class="inner">
+	        <div class="inner cover">
+	          <h1 class="cover-heading">Michelle Giralico</h1>
+	           <p class="lead">Designer. Motto in progress.</p>
+	        </div>
+
+<!-- ABOUT -->
+
+
+
+<!-- PORTFOLIO -->
+
+
+<!-- CONTACT FORM -->
+			<div id="row">
+				<div id="col">
+				<h2>Contact</h2>				
+					<form class="form" role="form" id="contact" action="/webformmailer.php" method="post">
+						<div class="form-group">
+							<label for="name" class=".sr-only">Name:</label>
+							<input type="text" class="form-control" id="name">
+						</div>
+						<div class="form-group">
+							<label for="email" class=".sr-only">E-mail Address:</label>
+							<input type="email" class="form-control" id="email">
+							</div>
+						<div class="form-group">
+							<label for="message" class=".sr-only">Message:</label>
+							<textarea class="form-control" id="message"></textarea>
+							</div>
+						<div class="form-group">
+								<button class="btn-default btn-sm" type="submit" value="Submit" id="submit">Submit</button>
+						</div>
+					</form>
+				</div>
+	        </div>
+
+	         <div class="mastfoot">
+	          <div class="inner">
 	              <p>
 	              <footer>&copy; Michelle Giralico - michelle@giralico.com</footer>
 	              </p>
 	            </div>
-	          </div>
+	         </div>
 
-	        </div>
 
-	      </div>
 
 	    </div>
 
@@ -84,17 +107,23 @@
 		<!--Content
 		===================
 
-		<div id="about" class="content">
-			<h2>About Me</h2>
-			<p class="standard_text">
-				I have a background in graphic design but have spent the last 10 years developing a love for technology working for an ISP. Creative problem solving is my forte and I'm always up for a challenge. 
-			</p>
-			<p class="standard_text">
-				In my spare time I enjoy time with my family and friends. I love trying new things and gaining different perspectives. Over the years I've tried my hand at welding, playing the musical saw, cycling, knitting, and numerous diy projects. I'm an unapologetic fan of puns and have an affinity for the absurd. 
-			</p>
-			<br>
+			<div id="about" class="row">
+				<div class="col-2"></div>
+				<div class="col-4">
+					<h2>About Me</h2>
+					<p class="standard_text">
+						I have a background in graphic design but have spent the last 10 years developing a love for technology working for an ISP. Creative problem solving is my forte and I'm always up for a challenge. 
+					</p>
+					<p class="standard_text">
+						In my spare time I enjoy time with my family and friends. I love trying new things and gaining different perspectives. Over the years I've tried my hand at welding, playing the musical saw, cycling, knitting, and numerous diy projects. I'm an unapologetic fan of puns and have an affinity for the absurd. 
+					</p>
+				</div>
+				<div class="col-2"></div>
+				<div id="personal-photo" class="col-4"></div>
+			</div>
+		
 
-		</div>
+
 		<div id="portfolio" class="content">
 			<h2>Portfolio</h2>
 			<p class="standard_text">
@@ -109,27 +138,8 @@
 				
 			</p>
 		</div>
-		
+-->	
 
-		<div class = "content" class="cFormStyle">
-			<h2>Contact</h2>
-				<form id="contact" action="/webformmailer.php" method="post">
-					<div class="section"><label for="name">What is your Name?</label></div>
-					<input type="text" name="name" id="name"><br>
-					<br>
 
-					<div class="section"><label for="email">What is your e-mail address?</label></div>
-					<input type="email" name="email" id="email"><br>
-					<br>
 
-					<div class="section"><label for="message">What is your quest?</label></div>
-					<textarea id="message"><input type="text" name="message" id="message"></textarea><br>
-					<br>
-
-					<div class="section">
-						<button type="submit" value="Submit" id="submit">Submit</button>
-					</div>
-				</form>
-		</div>
-		-->
 </html>

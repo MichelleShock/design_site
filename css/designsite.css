@@ -163,10 +163,14 @@ body {
   }
 }
 
+.site-wrapper-inner {
+  box-shadow: inset 0 0 0 1000px rgba(46, 19, 41,.6); 
+  background: url(../images/marquee.jpg);
+  background-size: cover;
+
+}
 
 /*--------------------- END BOOTSRAP COVER ---------------------*/
-
-
 
 
 h1 {
@@ -190,7 +194,9 @@ footer {
 
 
 
-/*CONTACT FORM STYLING*/
+
+/*--------------------- CONTACT FORM STYLING ---------------------*/
+
 #contact{
 	font-family: 'Calibri','Helvetica', sans-serif;
 	float: none;
@@ -204,38 +210,22 @@ footer {
 
 
 
-.section {
-	margin: 2% 0 1%;
-}
-
-.site-wrapper-inner {
-	box-shadow: inset 0 0 0 1000px rgba(46, 19, 41,.6);	
-	background: url(../images/marquee.jpg);
-	background-size: cover;
-
-}
 
 
 
+/*---------------------  FONT CHOICE ---------------------
 
- /*label{
-	display: block;
-	font: Calibri, Helvetica, sans-serif;
-	margin-bottom: 15px;
-}*/
-
-
-/*
----- FONT CHOICE -----
 'Montserrat', sans-serif;
+
 */
 
-/*
----- NEW COLOR PALATTE ----
+/*--------------------- NEW COLOR PALATTE -------------------
+
 #596b1d - Olive green
 #763069 - Plum - RGB 46, 19, 41
 #ffffff - White
 #969696 - Light Grey
 #191919 - Dark Grey 
+
 */
 
