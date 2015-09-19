@@ -1,62 +1,43 @@
-$(document).ready(function($) {
+$(document).ready(function() {
+	console.log('mgsite js is working');
+
 	//Navigation
-/*  
-	$("#about").hide();
-	$("#portfolio").hide();
-	$("#contact").hide();
-	//alert ("It's working");
 
-	$("#navAbout").click( function {
-		$("#about").fadeIn()
+//FOR NAVIGATION INTERACTION
+//Nav-button - Toggle Active on click
+	$("li.nav").click(function(){
+		$(this).toggleClass("active");
+		$(this).siblings().removeClass("active");
 	});
-*/
 
+//	hide other sections - show selected section
 
+	$("#nav-home").click(function() {
+		$("#content").children().addClass("hide");
+		$("#home").removeClass("hide");
+	});
 
+	$("#nav-about").click(function() {
+		$("#content").children().addClass("hide");
+		$("#about").removeClass("hide");
+	});
 
+	$("#nav-portfolio").click(function() {
+		$("#content").children().addClass("hide");
+		$("#portfolio").removeClass("hide");
+	});
 
+	$("#nav-contact").click(function() {
+		$("#content").children().addClass("hide");
+		$("#contact").removeClass("hide");
+	});
+
+	console.log('All your js belong to us!');
 
 }); //end ready
 
-//UNSLIDER - IMAGE GALLERY
 
 
-
-/*
-var screenSize = window.screen.width
-var fullNav = "large"
-var mobNav = "small"
-
-//determine screen sizes to scale sit appropriately
-if (screen < 500 px){
-	return "small";
-}
-
-if (screen > 500 px){
-	return "large";
-}
-*/
-
-
-
-
-/*
-FOR NAVIGATION INTERACTION
-When Button is selected
-	hide other sections
-	show selected section
-	hide main image
-*/
-
-
-/*
-FOR SMALLER SCREENS
-When the screen is smaller than 500 px 
-	hide navigation bar
-	show dropdown navigation =
-	center head and subhead
-	shrink and center image 
-*/
 
 /*
 CONTACT FORM
@@ -71,5 +52,4 @@ Form that emails me when filled out
 		checks for comments
 	- submit button
 		if empty or invalid returns error
-
 */
