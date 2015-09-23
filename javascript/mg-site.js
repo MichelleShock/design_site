@@ -32,6 +32,31 @@ $(document).ready(function() {
 		$("#contact").removeClass("hide");
 	});
 
+
+
+
+
+
+
+
+
+
+
+
+//CONTACT FORM 
+
+
+	$( "#submit" ).click(function( event ) {
+		event.preventDefault();
+		$("#contact").addClass("hide");
+		$("#sent").removeClass("hide");
+	});
+
+
+
+
+
+
 	console.log('All your js belong to us!');
 
 }); //end ready
