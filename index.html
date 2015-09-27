@@ -1,120 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-
-<!-- Latest compiled and minified CSS -->
+		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-
-<!-- Optional theme -->
+		<!-- Optional theme -->
 		<link rel="stylesheet" href="./bootstrap/css/bootstrap-theme.min.css">
-<!-- Google Fonts -->
+		<!-- Google Fonts -->
 		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-<!-- CUSTOM CSS -->
+		<!-- CUSTOM CSS -->
 		<link href="./css/designsite.css" rel="stylesheet" type="text/css">
-
 		<title>Michelle Giralico - Designer</title>
 	</head>
 
 	<body>
-	    <div class="site-wrapper">
+	  <div class="site-wrapper">
 
 	      <div class="site-wrapper-inner">
 	        <div class="cover-contain">
 
-	        <div class="masthead clearfix">
-	            <div class="inner">
-	              <h3 class="masthead-brand"><span class="glyphicon glyphicon-flash"></span>MG</h3>
-<!-- Navigation -->
-	              <nav>
-	                <ul class="nav masthead-nav">
-	                  <li class="nav active"><a href="#home" id="nav-home" class="navlink">Home</a></li>
-	                  <li class="nav"><a href="#about" id="nav-about" class="navlink">About Me</a></li>
-	                  <li class="nav"><a href="#contact" id="nav-portfolio" class="navlink">Portfolio</a></li>
-	                  <li class="nav"><a href="#portfolio" id="nav-contact" class="navlink">Contact</a></li>
-	                </ul>
-	              </nav>
-	            </div>
-	        </div>
-	      </div>
+	        	<div class="masthead clearfix">
+		            <div class="inner">
+		              <h3 class="masthead-brand"><span class="glyphicon glyphicon-flash"></span>MG</h3>
+	<!-- Navigation -->
+		              <nav>
+		                <ul class="nav masthead-nav">
+		                  <li class="nav active"><a href="#home" id="nav-home" class="navlink">Home</a></li>
+		                  <li class="nav"><a href="#about" id="nav-about" class="navlink">About Me</a></li>
+		                  <li class="nav"><a href="#contact" id="nav-portfolio" class="navlink">Portfolio</a></li>
+		                  <li class="nav"><a href="#portfolio" id="nav-contact" class="navlink">Contact</a></li>
+		                </ul>
+		              </nav>
+		            </div>
+	        	</div>
+	      	</div>
 
-	      <div id="content">
-<!-- HOME -->
+	      	<div class="vertspace"></div>
 
-	        <div class="inner cover" id="home">
-	          <h1 class="cover-heading">Michelle Giralico</h1>
-	           <p class="lead">Designer. Motto in progress.</p>
-	        </div>
+		    <div id="content">
+	<!-- HOME -->
 
-<!-- ABOUT -->
+		        <div class="inner cover" id="home">
+		          <h1 class="cover-heading">Michelle Giralico</h1>
+		           <p class="lead">Designer. Motto in progress.</p>
+		        </div>
 
-			<div id="about" class="row hide">
-				<div class="col-2"></div>
-				<div class="col-4 justify">
-					<h2>About Me</h2>
-					<p class="standard_text">
-						I have a background in graphic design but have spent the last 10 years developing a love for technology working for an ISP. Creative problem solving is my forte and I'm always up for a challenge. 
-					</p>
-					<p class="standard_text">
-						In my spare time I enjoy time with my family and friends. I love trying new things and gaining different perspectives. Over the years I've tried my hand at welding, playing the musical saw, cycling, knitting, and numerous diy projects. I'm an unapologetic fan of puns and have an affinity for the absurd. 
-					</p>
-				</div>
-				<div class="col-2"></div>
-				<div id="personal-photo" class="col-4"></div>
-			</div>
+	<!-- ABOUT -->
 
-<!-- CONTACT FORM -->
-			<div id="contact" class="row hide">
-				<div class="col">
-				<h2>Contact</h2>				
-					<form class="form" role="form" action="/webformmailer.php" method="post">
-						<div class="form-group">
-							<label for="name" class=".sr-only">Name:</label>
-							<input type="text" class="form-control" id="name">
+				<div id="about" class="container hide">
+					<div class="row">
+						<div class="col-md-2"></div>
+
+						<div id="personal-photo" class="col-md-2"><img src="./images/michelle.jpg" class="img-rounded"></div>
+						<div class="col-md-2"></div>
+						<div class="col-md-4 justify">
+							<h2>About Me</h2>
+							<p class="standard_text">
+								I have a background in graphic design but have spent the last 10 years developing a love for technology working for an ISP. Creative problem solving is my forte and I'm always up for a challenge. 
+							</p>
+							<p class="standard_text">
+								In my spare time I enjoy time with my family and friends. I love trying new things and gaining different perspectives. Over the years I've tried my hand at welding, playing the musical saw, cycling, knitting, and numerous diy projects. I'm an unapologetic fan of puns and have an affinity for the absurd. 
+							</p>
 						</div>
-						<div class="form-group">
-							<label for="email" class=".sr-only">E-mail Address:</label>
-							<input type="email" class="form-control" id="email">
-							</div>
-						<div class="form-group">
-							<label for="message" class=".sr-only">Message:</label>
-							<textarea class="form-control" id="message"></textarea>
-							</div>
-						<div class="form-group">
-								<button class="btn-default btn-sm" type="submit" value="Submit" id="submit">Submit</button>
-						</div>
-					</form>
+						<div class="col-md-2"></div>
+
+					</div>
 				</div>
-	        </div>
 
-	       	<div id="sent" class="row hide">
-	          <h1>Thank you!</h1>
-	          <p>Your form has been sent.</p>
-	        </div>	
+	<!-- CONTACT FORM -->
+				<div id="contact" class="row hide">
+					<div class="col">
+					<h2>Contact</h2>				
+						<form class="form" role="form" action="/webformmailer.php" method="post">
+							<div class="form-group">
+								<label for="name" class=".sr-only">Name:</label>
+								<input type="text" class="form-control" id="name">
+							</div>
+							<div class="form-group">
+								<label for="email" class=".sr-only">E-mail Address:</label>
+								<input type="email" class="form-control" id="email">
+								</div>
+							<div class="form-group">
+								<label for="message" class=".sr-only">Message:</label>
+								<textarea class="form-control" id="message"></textarea>
+								</div>
+							<div class="form-group">
+									<button class="btn-default btn-sm" type="submit" value="Submit" id="submit">Submit</button>
+							</div>
+						</form>
+					</div>
+		        </div>
 
-<!-- PORTFOLIO -->
+		       	<div id="sent" class="row hide">
+		          <h1>Thank you!</h1>
+		          <p>Your form has been sent.</p>
+		        </div>	
 
+	<!-- PORTFOLIO -->
+				<div id="portfolio" class="container hide">
+	   				<ul class="row">
+	       				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6 "><img class="picgrid" src="./images/portfolio/hudsuckers.jpg"/></li>
+	       				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img class="picgrid" src="./images/portfolio/pinballers.jpg"/></li>
+	       				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img class="picgrid" src="./images/portfolio/outlaw.jpg"/></li>
+	       				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img class="picgrid" src="./images/portfolio/halloween.jpg"/></li> 
+	       			</ul>
+	   				<ul class="row">
+	       				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img class="picgrid" src="./images/portfolio/gajmustafa.jpg"/></li>
+	       				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img class="picgrid" src="./images/portfolio/dc-soap.png"/></li> 
+	       				<li class="col-lg-2 col-md-2 col-sm-3 col-xs-6"><img class="picgrid"src="./images/portfolio/nixon.jpg"/></li>
+	       			</ul>
 
+	       			<!-- MODAL -->
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				      <div class="modal-dialog">
+				        <div class="modal-content">
+				          <div class="modal-body">
+				          </div>
+				        </div><!-- /.modal-content -->
+				      </div><!-- /.modal-dialog -->
+					</div><!-- /.modal -->
 
+				</div>
+		    </div>
 
+	<!-- FOOTER -->
+		    <div class="mastfoot">
+		        <div class="inner">
+		            <p>&copy; Michelle Giralico - michelle@giralico.com</p>
+		        </div>
+		    </div>
 
-
-
-
-
-<!-- FOOTER -->
-	         <div class="mastfoot">
-	          <div class="inner">
-	              <p>
-	              &copy; Michelle Giralico - michelle@giralico.com
-	              </p>
-	            </div>
-	         </div>
-
-
-
-	    </div>
-	   </div>
+		   </div>
+	  </div>
 
 
 

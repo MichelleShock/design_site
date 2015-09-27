@@ -172,24 +172,50 @@ h2 {
 	font: 1.5em;
 }
 
+ul li {
+  list-style:none;
+  margin-bottom:25px;
+}
+  ul li img {
+  cursor: pointer;
+}
 
+.vertspace {
+  position: fixed;
+  z-index: 5;
+  height: 1px;
+  padding: 100px;
+}
 
-.mastfoot {
-  float: bottom;
-  text-align: center;
-  font-family: 'Calibri','Helvetica', sans-serif;
-  padding: 0 0 2%;
+@media screen and (max-width: 767){
+  .vertspace {padding: 0px;}
+}
+
+/* Hide Content when scrolling behing header/footer */
+
+.masthead, .mastfoot {
+  z-index: 10;
+}
+
+#content {
+  z-index: 5;
 }
 
 
 /*--------------------- ABOUT ME  ---------------------*/
 
 .personal-photo {
-  background: url(../images/michelle.jpg);
+  display: block;  
 }
 
+/*--------------------- PORTFOLIO ---------------------*/
 
-/*--------------------- CONTACT FORM STYLING ---------------------*/
+.picgrid {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+/*--------------------- CONTACT FORM  ---------------------*/
 
 #contact{
 	font-family: 'Calibri','Helvetica', sans-serif;
@@ -200,9 +226,14 @@ h2 {
 	text-align: left;
 }
 
+/*--------------------- FOOTER   ---------------------*/
 
 
-
+.mastfoot {
+  float: bottom;
+  text-align: center;
+  font-family: 'Calibri','Helvetica', sans-serif;
+}
 
 
 
