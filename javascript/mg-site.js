@@ -69,26 +69,22 @@ $(document).ready(function() {
 
 
 
-
-
-
 //CONTACT FORM 
 
 
-	$( "#submit" ).click(function( event ) {
-		event.preventDefault();
-		$("#contact").addClass("hide");
-		$("#sent").removeClass("hide");
-	});
-
-
-
-
+/*		    // everything looks good!
+			$("#contact").addClass("hide");
+			$("#sent").removeClass("hide");		  
+*/
 
 
 	console.log('All your js belong to us!');
 
 }); //end ready
+
+
+
+
 
 $(document).on('click', 'a.controls', function(){
 	var index = $(this).attr('href');
